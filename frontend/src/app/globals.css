@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:wght@100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer components {
+  .btn-signin {
+    @apply cursor-pointer rounded-full text-white px-7 py-2 bg-gradient-to-b from-[#2769C0] to-[#0F1A4F] hover:opacity-90 transition duration-300;
+  }
+  .btn-gradient {
+    @apply cursor-pointer rounded-xl px-8 py-3 mt-14 font-semibold text-xl text-white bg-gradient-to-r from-[#2266BE] to-[#102F58] hover:opacity-90 transition duration-300;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-smallscreen {
+    @apply hidden;
+  }
+}
