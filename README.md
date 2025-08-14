@@ -3,6 +3,7 @@
 
 Ed_Tech is a modern educational platform designed to enhance digital learning experiences. Built using **Next.js**, and modern development practices, this project aims to deliver a seamless user interface and performance.
 
+**🌐 Live Demo:** [https://ed-tech-one-lac.vercel.app/](https://ed-tech-one-lac.vercel.app/)
 
 ## 📁 Project Structure
 
