@@ -8,18 +8,53 @@ Ed_Tech is a modern educational platform designed to enhance digital learning ex
 ## 📁 Project Structure
 
 ```
+
 frontend/
-├── app/
-│   ├── page.tsx           # Main landing page
-│   ├── Login/page.tsx     # Login page
-│   └── ...
-├── components/
-│   ├── Navbar.tsx         # Navigation bar
-│   ├── Footer.tsx         # Footer component
-│   └── ...
-public/                    # Static assets
-styles/                    # Global styles
-```
+├── public/ # Static assets (favicon, images, etc.)
+├── src/
+│ ├── app/
+│ │ ├──dashboard/
+│ │ │ └── welcome/
+│ │ │ ├── Completion.tsx
+│ │ │ ├── DashboardChart.tsx
+│ │ │ ├── Languages.tsx
+│ │ │ ├── Tracker.tsx
+│ │ │ ├── layout.tsx
+│ │ │ └── page.tsx
+│ │ ├── onboarding/
+│ │ │ ├── details/page.tsx
+│ │ │ └── learning-path/page.tsx
+│ │ ├── payment/page.tsx
+│ │ └── success/
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ ├── assets/ # Images and other assets
+│ ├── Components/ # Reusable UI components
+│ │ ├── Footer.tsx
+│ │ ├── LayoutWrapper.tsx
+│ │ └── Navbar.tsx
+│ ├── Pages/ # Standalone pages
+│ │ ├── AboutUs.tsx
+│ │ ├── Community.tsx
+│ │ ├── Courses.tsx
+│ │ ├── Hero.tsx
+│ │ ├── Mentors.tsx
+│ │ ├── Price.tsx
+│ │ └── Subscription.tsx
+│ ├── globals.css # Global styles
+│ ├── layout.tsx # Root layout
+│ └── page.tsx # Root page
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml # Dependency lock file for pnpm
+├── postcss.config.mjs # PostCSS configuration
+├── tsconfig.json # TypeScript configuration
+└──  README.md
+
+````
 
 ## 🚀 Features
 
@@ -41,14 +76,16 @@ styles/                    # Global styles
    ```bash
    git clone https://github.com/Abdisamad-Abass/Ed_Tech.git
    cd Ed_Tech
-   ```
+````
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Run development server**
+
    ```bash
    npm run dev
    ```
@@ -65,9 +102,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Author
 
-- **Abdisamad Abass Tawane**  
+* **Abdisamad Abass Tawane**
   [GitHub](https://github.com/Abdisamad-Abass)
+  [Live Site](https://ed-tech-one-lac.vercel.app/)
 
----
-
-Feel free to modify and expand this as your project grows!
